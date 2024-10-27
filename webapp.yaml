@@ -43,7 +43,7 @@ kind: Service
 metadata:
   name: webapp-service
 spec:
-  # kind: ClusterIP
+  # type: ClusterIP
   type: NodePort
   selector:
     app: webapp
